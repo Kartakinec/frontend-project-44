@@ -8,7 +8,8 @@ Installation
 1) git clone https://github.com/Kartakinec/frontend-project-44
 2) cd frontend-project-44
 3) npm ci
-4) npm link or sudo npm link
+4) npm publish
+5) npm link or sudo npm link
 
 brain-even:
 https://asciinema.org/a/JPlz3l6LvARPQja6NbrwAVdyC
