@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/Kartakinec/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Kartakinec/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/fdc26fa9b75b286a009e/maintainability)](https://codeclimate.com/github/Kartakinec/frontend-project-44/maintainability)
 
-Brain games is the set of five console mini-games. Each game will be ask questions and you should answer correctly. If you correctly answer three question in a row game will be complete. If you make wrong answer you can rerun game.
+Brain games is the set of five console mini-games. Each game will be ask questions and you should answer correctly. If you correctly answer three question in a row game will be complete. If you make wrong answer you can rerun the game.
 
 Installation
 1) git clone https://github.com/Kartakinec/frontend-project-44
