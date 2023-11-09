@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Kartakinec/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Kartakinec/frontend-project-44/actions)",
+  "description": "Brain games is my first project on Hexlet, this is set of five console mini-games.",
   "bin": {
     "brain-games": "games/brainGames.js",
     "brain-even": "bin/brain-even.js",
