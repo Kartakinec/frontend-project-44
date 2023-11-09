@@ -1,11 +1,10 @@
-#!/usr/bin/env node
-import startGame from '../src/index.js';
-import getRandomNum from '../src/math-func.js';
+import startGame from '../index.js';
+import getRandomNum from '../math-func.js';
 
 export default () => {
   const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-  const isPrime = (num) => {
+  const getPrime = (num) => {
     if (num < 2) {
       return false;
     }
@@ -21,7 +20,7 @@ export default () => {
 
   const getExpAndCorrectAnswer = () => {
     const exp = getRandomNum();
-    const correctAnswer = (isPrime(exp) ? 'yes' : 'no');
+    const correctAnswer = (getPrime(exp) ? 'yes' : 'no');
 
     return [exp, correctAnswer];
   };

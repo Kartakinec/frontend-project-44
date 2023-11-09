@@ -1,6 +1,5 @@
-#!/usr/bin/env node
-import startGame from '../src/index.js';
-import getRandomNum from '../src/math-func.js';
+import startGame from '../index.js';
+import getRandomNum from '../math-func.js';
 
 export default () => {
   const rules = 'What number is missing in the progression?';
